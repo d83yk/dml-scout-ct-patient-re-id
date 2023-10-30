@@ -1,0 +1,18 @@
+name: test
+prefix: 296
+store: Y:/Studies/DML/Scout/v21\model\l\732\384x224\train_table-w-10-p-025\test.py\test
+image_root: C:\Studies\DML\Scout\Dataset\PNG\CT3
+dataset_csv: Y:\Studies\DML\Scout\Dataset\PNG\CT3-20y-12.csv
+main_root: Y:/Studies/DML/Scout/v21
+model_path: model\l\732\384x224\train_table-w-10-p-025
+model_pth: bestmodel.cpt
+pixelsize: [384, 256]
+arch: tf_efficientnetv2_l
+train_patients: 732
+baseline_patients: (4808, 4808)
+followup_patients: (1291, 1291)
+batch_size: 1
+num_workers: 2
+pin_memory: True
+drop_last: False
+device: cuda
